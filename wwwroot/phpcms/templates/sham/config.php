@@ -4,7 +4,7 @@
   'dirname' => 'sham',
   'homepage' => 'http://www.phpcms.cn/',
   'version' => '1.0',
-  'disable' => 1,
+  'disable' => 0,
   'file_explan' => 
   array (
     'templates|sham|content' => 
@@ -13,7 +13,7 @@
       'category_download.html' => '下载频道页_sham',
       'category_information.html' => '_sham',
       'category_picture.html' => '图片频道页_sham',
-      'category_video.html' => '_sham',
+      'category_video.html' => '视频频道页_sham',
       'download.html' => '下载连接页_sham',
       'footer.html' => '底部_sham',
       'header.html' => '顶部_sham',
@@ -23,7 +23,7 @@
       'list.html' => '列表页_sham',
       'list_download.html' => '下载列表页_sham',
       'list_picture.html' => '图片列表页_sham',
-      'list_video.html' => '_sham',
+      'list_video.html' => '视频列表页_sham',
       'message.html' => '消息提示页_sham',
       'page.html' => '单网页_sham',
       'play_list.html' => '_sham',
@@ -32,8 +32,8 @@
       'show.html' => '文章内容页_sham',
       'show_download.html' => '下载内容页_sham',
       'show_picture.html' => '图片内容页_sham',
-      'show_video.html' => '_sham',
-      'show_videolist.html' => '_sham',
+      'show_video.html' => '视频内容页_sham',
+      'show_videolist.html' => '视屏_sham',
       'tag.html' => 'tag',
       'tag_list.html' => '_sham',
       'video_album.html' => '_sham',
@@ -44,6 +44,7 @@
       'announce' => '公告',
       'comment' => '评论',
       'content' => '内容模型',
+      'feikangfu' => '自定义的模板',
       'formguide' => '表单向导',
       'link' => '友情链接',
       'member' => '会员中心',
@@ -55,7 +56,6 @@
       'special' => '专题',
       'vote' => '投票',
       'wap' => '手机门户',
-      'yp' => '黄页模板',
     ),
     'templates|sham|vote' => 
     array (
