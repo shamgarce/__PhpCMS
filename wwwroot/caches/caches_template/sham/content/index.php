@@ -1,4 +1,4 @@
-{template "content","header_v1"}
+<?php defined('IN_PHPCMS') or exit('No permission resources.'); ?><?php include template("content","header_v1"); ?>
 	<div class="con">
 
 		<div class="warrper">
@@ -297,4 +297,4 @@
 	   </div>
 
 	</div>
-{template "content","footer_v1"}
+<?php include template("content","footer_v1"); ?>

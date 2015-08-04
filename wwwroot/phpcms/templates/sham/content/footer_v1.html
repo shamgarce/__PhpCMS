@@ -1,0 +1,52 @@
+<div class="foot">
+		<div class="ft_t">
+			<div class="ft_rl">
+				<dl>
+					<dt>关于肺康复网</dt>
+					<dd><a href="">关于我们</a></dd>
+					<dd><a href="">网站帮助</a></dd>
+					<dd><a href="">隐私政策</a></dd>
+					<dd><a href="">投稿通道</a></dd>
+				</dl>
+				<dl class="ltan">
+					<dt>肺康复论坛</dt>
+					<dd><a href="">联系我们</a></dd>
+					<dd><a href="">网站地图</a></dd>
+					<dd><a href="">版权声明</a></dd>
+					<dd><a href="">意见反馈</a></dd>
+				</dl>
+			</div>
+			<div class="ft_tr">
+				<a href="">
+					<img src="/statics/sham/images/ewm1.jpg" alt="">
+					<h3>肺康复网论坛</h3>
+				</a>
+				<a href="">
+					<img src="/statics/sham/images/ewm2.jpg" alt="">
+					<h3>呼吸大讲堂</h3>
+				</a>
+				<a href="">
+					<img src="/statics/sham/images/ewm3.jpg" alt="">
+					<h3>费医生APP</h3>
+				</a>
+			</div>
+		</div>
+		<div class="ft_b">
+			<div class="ft_info">
+				<span>友情链接：</span>
+                
+                
+                {pc:link action="type_list" siteid="1" linktype="" order="listorder DESC" }
+{loop $data $n $r}
+<a href="{$r['url']}" title="{$r['title']}">{$r['title']}</a>
+{/loop}
+{/pc}
+			</div>
+			<p>声明：本站图/文均来自于网络收集，仅供病友参考，不作为医疗诊断依据。      投诉电话：400-000-0000（7×24小时）</p>
+			<p>Copyright ⓒ 2015-2018 肺康复网（www.feikangfu.com）京ICP备1345561号-1</p>
+			<p>互联网nag药品信息服务资格证书ICP证书</p>
+		</div>
+	</div>
+    	
+</body>
+</html>

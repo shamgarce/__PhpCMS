@@ -436,7 +436,7 @@ return array (
     'parentdir' => '',
     'catdir' => 'information',
     'url' => 'http://dev.feikangfu.com/index.php?m=content&c=index&a=lists&catid=9',
-    'items' => '0',
+    'items' => '1',
     'hits' => '0',
     'setting' => 'array (
   \'workflowid\' => \'\',
