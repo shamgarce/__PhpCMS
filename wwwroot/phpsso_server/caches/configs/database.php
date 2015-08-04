@@ -2,11 +2,11 @@
 
 return array (
 	'default' => array (
-		'hostname' => 'localhost',
-		'database' => 'phpsso',
-		'username' => 'admin',
-		'password' => 'admin',
-		'tablepre' => 'ps_',
+		'hostname' => '127.0.0.1',
+		'database' => 'feikangfugrace',
+		'username' => 'feikangfugrace',
+		'password' => 'feikangfugrace',
+		'tablepre' => 'v9_sso_',
 		'charset' => 'utf8',
 		'type' => 'mysql',
 		'debug' => true,
