@@ -37,3 +37,4 @@
 <?php exit;?>08-04 11:10:27 | 2 | Illegal string offset 'enablehits' | phpcms\modules\poster\index.php | 104
 <?php exit;?>08-04 11:11:57 | 2 | Illegal string offset 'enablehits' | phpcms\modules\poster\index.php | 104
 <?php exit;?>08-04 11:19:23 | 8192 | Function split() is deprecated | caches\caches_model\caches_data\content_update.class.php | 70
+<?php exit;?>08-04 13:47:18 | 2 | extract() expects parameter 1 to be array, string given | phpcms\modules\formguide\formguide.php | 243

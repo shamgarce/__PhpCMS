@@ -38,15 +38,18 @@
                 
                 {pc:link action="type_list" siteid="1" linktype="" order="listorder DESC" }
 {loop $data $n $r}
-<a href="{$r['url']}" title="{$r['title']}">{$r['title']}</a>
+<a href="{$r['url']}" title="{$r['name']}">{$r['name']}</a>
 {/loop}
 {/pc}
 			</div>
 			<p>声明：本站图/文均来自于网络收集，仅供病友参考，不作为医疗诊断依据。      投诉电话：400-000-0000（7×24小时）</p>
-			<p>Copyright ⓒ 2015-2018 肺康复网（www.feikangfu.com）京ICP备1345561号-1</p>
+			<p>Copyright ⓒ 2015-2018 {$PHPCMS[sitename]} phpcms网站管理系统 肺康复网（{siteurl($siteid)}）京ICP备1345561号-1</p>
 			<p>互联网nag药品信息服务资格证书ICP证书</p>
 		</div>
 	</div>
-    	
+    	{$SEO['site_title']}
+{$SEO['keyword']}
+{$SEO['description']}
+
 </body>
 </html>
